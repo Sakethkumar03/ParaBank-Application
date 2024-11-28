@@ -10,13 +10,13 @@ public class POM {
 	public WebDriver bank;
 	
 	
-	@FindBy(xpath="//input[contains(@name, 'username')]")
+	@FindBy(xpath="//input[contains(@name,'username')]")
 	WebElement  username;
 	
-	@FindBy(xpath="//input[contains(@name, 'password')]")
+	@FindBy(xpath="//input[contains(@name,'password')]")
 	WebElement  password;
 	
-	@FindBy(xpath="//input[contains(@class ,'button')]")
+	@FindBy(xpath="//input[contains(@class,'button')]")
 	WebElement  button;
 	
 	
